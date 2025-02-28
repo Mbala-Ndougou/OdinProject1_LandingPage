@@ -11,6 +11,8 @@ body {
     margin: 0;
 }
 
+
+
 .header {
     background-color: #1F2937;
     display: flex;
@@ -40,8 +42,6 @@ a:hover {
     font-size: 24px;
 }
 
-
-
 .right {
     margin-left: auto;
 }
@@ -53,6 +53,8 @@ a:hover {
     flex: 1 0 auto;
     padding-bottom: 10px ;
 }
+
+
 .one {
     background-color: #1F2937 ;
     display: flex;
@@ -60,9 +62,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     border-left: 100px solid #1F2937; 
-    border-right: 100px solid #1F2937;
-    
-    
+    border-right: 100px solid #1F2937;  
 }
 
 .sign-up {
@@ -81,16 +81,19 @@ a:hover {
     font-weight: bold;
     color: rgb(238, 237, 237);
 }
+
 .description {
     display: flex;
     flex: 1;
     font-size: 18px;
     color: grey;
 }
+
 .signup {
     display: flex;
     flex: 1;
 }
+
 button {
     background-color: rgb(87, 153, 252);
     color: white;
@@ -113,14 +116,13 @@ button {
     color: #e0e0e0;
 }
 
-
-
-
 p {
     color: rgb(214, 214, 214);
     display: flex;
     justify-content: center;
 }
+
+
 
 .two {
     background-color: white;
@@ -131,9 +133,9 @@ p {
     justify-content: center;
     padding-top: 25px;
     padding-bottom: 75px;
-    gap: 20px;
-    
+    gap: 20px; 
 }
+
 .infos {
     display: flex;
     justify-content: center;
@@ -142,16 +144,19 @@ p {
     font-weight: bold;
     color: #1F2937;
 }
+
 .img_txt {
     display: flex; 
     justify-content: center;
     gap: 25px;   
 }
+
 .imgtxt {
     display: flex;
     flex-direction: column;
     gap: 2px;
 }
+
 .imager {
     display: flex;
     height: 120px;
@@ -159,6 +164,7 @@ p {
     border: rgb(87, 153, 252) solid ;
     border-radius: 9px;
 }
+
 .describer {
     display: flex;
     flex: 1;
@@ -171,12 +177,15 @@ p {
 
 }
 
+
+
 .three {
     background-color: rgb(211, 211, 211);
     display: flex;
     flex: 1;
     flex-direction: column;
 }
+
 .quote {
     display: flex;
     font-size: 21px;
@@ -188,6 +197,7 @@ p {
     justify-content: center;
     align-items: center;
 }
+
 .author {
     display: flex;
     font-size: 18px;
@@ -198,18 +208,9 @@ p {
     padding-top: 20px;
     padding-bottom: 80px;
 }
-/* 
-.four {
-    display: flex;
-    flex: 1;
-    /* margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    padding-left: 100px;
-    padding-right: 100px; */
-    /* background-color:aquamarine; */
-/* }  */
+
+
+
 
 .four {
     display: flex;
@@ -233,6 +234,7 @@ p {
     background-color: rgb(86, 153, 255) solid;
     
 }
+
 .bouton button {
     border-color: white;
 }
